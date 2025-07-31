@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Kayalvizhi - Cybersecurity Student Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.3.2/dist/tailwind.min.css" rel="stylesheet" />
+  <style>
+    /* Custom cyber glow effect */
+    .glow-text {
+      text-shadow:
+        0 0 5px #00fff7,
+        0 0 10px #00fff7,
+        0 0 20px #00fff7,
+        0 0 40px #00fff7;
+    }
+    .glow-border {
+      box-shadow:
+        0 0 8px #00fff7,
+        0 0 20px #00fff7,
+        0 0 40px #00fff7;
+    }
+  </style>
+</head>
+<body class="bg-gray-900 text-gray-200 font-sans">
+
+  <header class="container mx-auto p-6 flex justify-between items-center border-b border-gray-700">
+    <h1 class="text-3xl font-bold glow-text">Kayalvizhi</h1>
+    <nav>
+      <ul class="flex gap-8 text-gray-400 hover:text-cyan-400">
+        <li><a href="#about" class="hover:text-cyan-400 transition">About</a></li>
+        <li><a href="#projects" class="hover:text-cyan-400 transition">Projects</a></li>
+        <li><a href="#skills" class="hover:text-cyan-400 transition">Skills</a></li>
+        <li><a href="#contact" class="hover:text-cyan-400 transition">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container mx-auto px-6 py-12 max-w-4xl">
+    <!-- Hero Section -->
+    <section id="about" class="mb-16">
+      <h2 class="text-4xl font-extrabold mb-4 glow-text">Hi, I'm Kayalvizhi</h2>
+      <p class="text-lg leading-relaxed max-w-3xl">
+        I'm a passionate <span class="text-cyan-400 font-semibold">Cybersecurity student</span> currently pursuing my college degree.
+        I love exploring the digital world, learning about securing systems, and protecting data from evolving cyber threats.
+      </p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="mb-16">
+      <h3 class="text-3xl font-bold mb-8 glow-text">Projects</h3>
+      <div class="grid gap-8 md:grid-cols-2">
+        <div class="bg-gray-800 p-6 rounded-lg glow-border hover:scale-[1.03] transition-transform">
+          <h4 class="text-xl font-semibold mb-2">Network Vulnerability Scanner</h4>
+          <p class="text-gray-300">
+            Built a custom tool to identify common vulnerabilities in local networks using Python and Nmap.
+          </p>
+        </div>
+        <div class="bg-gray-800 p-6 rounded-lg glow-border hover:scale-[1.03] transition-transform">
+          <h4 class="text-xl font-semibold mb-2">Phishing Awareness Campaign</h4>
+          <p class="text-gray-300">
+            Developed educational content and workshops to help students recognize phishing attacks and avoid scams.
+          </p>
+        </div>
+        <div class="bg-gray-800 p-6 rounded-lg glow-border hover:scale-[1.03] transition-transform">
+          <h4 class="text-xl font-semibold mb-2">Encryption Algorithms Study</h4>
+          <p class="text-gray-300">
+            Researched and implemented AES and RSA encryption in sample apps to understand cryptography fundamentals.
+          </p>
+        </div>
+        <div class="bg-gray-800 p-6 rounded-lg glow-border hover:scale-[1.03] transition-transform">
+          <h4 class="text-xl font-semibold mb-2">Personal Blog on Cybersecurity</h4>
+          <p class="text-gray-300">
+            Launched a blog sharing latest cybersecurity news, tutorials, and ethical hacking tips.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="mb-16">
+      <h3 class="text-3xl font-bold mb-6 glow-text">Skills</h3>
+      <ul class="flex flex-wrap gap-4 text-gray-300">
+        <li class="bg-cyan-700 px-4 py-2 rounded-full font-semibold">Network Security</li>
+        <li class="bg-cyan-700 px-4 py-2 rounded-full font-semibold">Ethical Hacking</li>
+        <li class="bg-cyan-700 px-4 py-2 rounded-full font-semibold">Python</li>
+        <li class="bg-cyan-700 px-4 py-2 rounded-full font-semibold">Cryptography</li>
+        <li class="bg-cyan-700 px-4 py-2 rounded-full font-semibold">Linux</li>
+        <li class="bg-cyan-700 px-4 py-2 rounded-full font-semibold">Wireshark</li>
+        <li class="bg-cyan-700 px-4 py-2 rounded-full font-semibold">Penetration Testing</li>
+      </ul>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="mb-16">
+      <h3 class="text-3xl font-bold mb-6 glow-text">Get In Touch</h3>
+      <p class="mb-4 max-w-xl">
+        I'm always open to new opportunities, collaborations, or just a friendly chat about cybersecurity. Feel free to reach out!
+      </p>
+      <a href="mailto:kayalvizhi@example.com" class="inline-block bg-cyan-500 hover:bg-cyan-600 text-gray-900 font-semibold px-6 py-3 rounded-lg transition">
+        Email Me
+      </a>
+    </section>
+  </main>
+
+  <footer class="border-t border-gray-700 text-center py-6 text-gray-500 text-sm">
+    &copy; 2025 Kayalvizhi. All rights reserved.
+  </footer>
+
+</body>
+</html>
